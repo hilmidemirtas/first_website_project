@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+body {
+    background-color: #215850;
+    font-family: Arial;
+  }
+  
+  .ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style-type: none;
+      margin: 0;
+      padding: 1vh 0 1vh 0;
+      overflow: hidden;
+      /*
+      background-color: rgb(7, 127, 207);
+      */
+      background-color: #327e735b;
+    }
+    
+    .li {
+      float: left;
+      border-right:1px solid #bbb;
+    }
+    
+    .li a {
+      display: block;
+      color: white;
+      text-align: center;
+      font-size: 2vh;
+      padding: 1.6vh 1.7vh;
+      text-decoration: none;
+    }
+  
+    .ben {
+        background-color: rgba(43, 238, 76, 0.733);
+        border-radius: 50px;
+    }
+    
+    .li a:hover:not(.gndm) {
+      background-color:floralwhite;
+      border-radius:48px;
+      color: black;
+      font-style:italic;
+      
+    }
+
+/* içerik */
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  .main {
+    margin: 0 10px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  .column:hover {
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(255, 255, 255, 0.548);
+    cursor: pointer;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .card {
+      border-radius: 29px;
+      overflow: hidden;
+  }
+  .card:hover {
+    transition: 0.3;
+    box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(255, 255, 255, 0.548);
+  cursor: pointer;
+  border-radius: 15px;
+  }
+  
+  /* içerik */
+
+   /* buton */
+
+  .btn {
+       border-radius: 18px;
+   }
+
+   /* buton */
