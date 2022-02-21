@@ -15,6 +15,10 @@ body {
 
 }
 
+.logo-mycss {
+    border-radius: 50%;
+}
+
 
 .nav-bg-mycss {
     background-color: #327e735b;
